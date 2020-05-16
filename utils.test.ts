@@ -1,7 +1,7 @@
 import { assertEquals } from 'https://deno.land/std/testing/asserts.ts';
 import * as utils from './utils.ts';
 
-Deno.test("Sorted Array", function (): void {
+Deno.test("Sorted Array", (): void => {
   // given
   const x = [8, 1, 3, 6, 4, 7];
   const y = [5, 12, 32, 9, 2, 0];
